@@ -1,0 +1,111 @@
+.prevencao-mas {
+  background-color: #F8F9FA;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.prevencao-mas h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.3rem;
+  height: 30vh;
+  background: linear-gradient(90deg, #3373D2 0%, #6F95C7 41.83%, #0074EE 70.19%, #5EA7EF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+@media (max-width: 320px) {
+  .prevencao-mas h2 {
+    text-align: center;
+    font-size: 1.9rem;
+  }
+}
+@media (min-width: 321px) and (max-width: 440px) {
+  .prevencao-mas h2 {
+    text-align: center;
+    font-size: 2rem;
+  }
+}
+.prevencao-mas .box-cards-3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 140vh;
+  width: 90%;
+}
+.prevencao-mas .box-cards-3 .cards-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 23vw;
+  height: 60vh;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2509803922);
+  background-color: #FFFFFF;
+  border-radius: 20px;
+}
+.prevencao-mas .box-cards-3 .cards-3 img {
+  border-radius: 100%;
+  width: 7vw;
+  height: 15vh;
+}
+@media (max-width: 320px) {
+  .prevencao-mas .box-cards-3 .cards-3 img {
+    width: 28vw;
+  }
+}
+@media (min-width: 321px) and (max-width: 440px) {
+  .prevencao-mas .box-cards-3 .cards-3 img {
+    width: 29vw;
+  }
+}
+@media (min-width: 441px) and (max-width: 890px) {
+  .prevencao-mas .box-cards-3 .cards-3 img {
+    width: 20vw;
+  }
+}
+.prevencao-mas .box-cards-3 .cards-3 ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-size: 0.9rem;
+  height: 25vh;
+  width: 90%;
+  padding-left: 1.1rem;
+}
+@media (max-width: 320px) {
+  .prevencao-mas .box-cards-3 .cards-3 {
+    width: 80vw;
+  }
+}
+@media (min-width: 321px) and (max-width: 440px) {
+  .prevencao-mas .box-cards-3 .cards-3 {
+    width: 80vw;
+  }
+}
+@media (min-width: 441px) and (max-width: 890px) {
+  .prevencao-mas .box-cards-3 .cards-3 {
+    width: 45vw;
+  }
+}
+@media (max-width: 320px) {
+  .prevencao-mas .box-cards-3 {
+    height: 350vh;
+    flex-direction: column;
+  }
+}
+@media (min-width: 321px) and (max-width: 440px) {
+  .prevencao-mas .box-cards-3 {
+    height: 350vh;
+    flex-direction: column;
+  }
+}
+@media (min-width: 441px) and (max-width: 890px) {
+  .prevencao-mas .box-cards-3 {
+    height: 200vh;
+    width: 100%;
+  }
+}/*# sourceMappingURL=section3.css.map */

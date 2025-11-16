@@ -41,6 +41,12 @@ footer {
                 text-decoration: none;
                 color: #fff;
                 font-size: .9rem;
+                transition: .3s ease-in-out;
+            }
+
+            a:hover {
+                color: #179146;
+                transition: .3s ease-in-out;
             }
 
             @media (max-width: 320px) {

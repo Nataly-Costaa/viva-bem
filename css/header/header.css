@@ -80,7 +80,7 @@ header .nav-header a {
   transition: 0.3s ease-in-out;
 }
 header .nav-header a:hover {
-  color: #1a5463;
+  color: #1e6172;
   transition: 0.3s ease-in-out;
 }
 @media (max-width: 320px) {
